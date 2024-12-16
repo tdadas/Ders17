@@ -1,0 +1,32 @@
+#saha{width: 1000px;
+    height: 380px;
+    background-image: url(saha.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+    }
+    #baslık{
+    font-size: 35px;
+    text-align: center;
+    color: yellow;
+    position: absolute;
+    top: 30px;
+    width: 1000px;
+    background-color: rgba(0,0,0,1);
+    }
+    .futbolcu{
+    position: absolute;
+    background-color: rgba(0,0,0,1);
+    border-radius: 5px;
+    width: 150px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    left:100px;
+    }
+    #f1{top:160px;}
+    #f2{top:200px;}
+    .futbolcu::before{
+        content:url(forma.png);
+        padding-right: 10px;
+    } 
